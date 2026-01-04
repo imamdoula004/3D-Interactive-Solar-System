@@ -54,7 +54,7 @@ The project visualizes the Sun, planets, moons, orbital paths, and planetary mot
 
 ⚠️ **Important:**  
 The `textures` folder **must remain in the same directory as the compiled executable**, otherwise textures will not load.
-
+You can download the jpg from here: https://www.solarsystemscope.com/textures/
 ---
 
 ## 🖥️ How to Run the Project (No Virtual Environment)
