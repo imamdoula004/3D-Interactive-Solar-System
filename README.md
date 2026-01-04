@@ -1,10 +1,10 @@
-🌌 3D Interactive Solar System (OpenGL – C++)
+# 🌌 3D Interactive Solar System (OpenGL – C++)
 
 A 3D interactive Solar System simulation developed using C++ and OpenGL (GLUT) for the Computer Graphics course in the B.Sc. in Computer Science & Engineering program at Canadian University of Bangladesh.
 
 The project visualizes the Sun, planets, moons, orbital paths, and planetary motion in real time with textures, animation, and keyboard-based interaction.
 
-✨ Features
+# ✨ Features
 
 🌞 Sun, 8 planets, and Earth’s Moon
 
@@ -22,7 +22,7 @@ The project visualizes the Sun, planets, moons, orbital paths, and planetary mot
 
 🎯 Planet selection and highlighting
 
-🛠 Technologies Used
+# 🛠 Technologies Used
 
 Language: C++
 
@@ -34,8 +34,8 @@ Image Loading: stb_image.h
 
 IDE: Code::Blocks
 
-📁 Project Structure
-3D-Solar-System/
+# 📁 Project Structure
+`3D-Solar-System/
 │
 ├── main.cpp
 ├── stb_image.h
@@ -52,13 +52,13 @@ IDE: Code::Blocks
 │   ├── uranus.jpg
 │   ├── neptune.jpg
 │   └── stars.jpg
-└── README.md
+└── README.md`
 
 
 ⚠️ Important:
 The textures folder must be in the same directory as the compiled executable.
 
-🖥️ How to Run the Project (No Virtual Environment)
+# 🖥️ How to Run the Project (No Virtual Environment)
 
 This project runs directly on your local machine using Code::Blocks.
 
@@ -67,7 +67,7 @@ This project runs directly on your local machine using Code::Blocks.
 
 Download:
 
-https://www.codeblocks.org/downloads/
+`https://www.codeblocks.org/downloads/`
 
 Choose:
 
@@ -78,18 +78,18 @@ Option A: Using FreeGLUT (Recommended)
 
 Download FreeGLUT:
 
-https://www.transmissionzero.co.uk/software/freeglut-devel/
+`https://www.transmissionzero.co.uk/software/freeglut-devel/`
 
 Extract the files and copy:
 
 Copy .h files to:
-C:\Program Files\CodeBlocks\MinGW\include\GL\
+`C:\Program Files\CodeBlocks\MinGW\include\GL\`
 
 Copy .a files to:
-C:\Program Files\CodeBlocks\MinGW\lib\
+`C:\Program Files\CodeBlocks\MinGW\lib\`
 
-Copy freeglut.dll to:
-C:\Windows\System32\
+Copy **freeglut.dll** to:
+`C:\Windows\System32\`
 
 🔧 Step 3: Create Project in Code::Blocks
 
@@ -97,7 +97,7 @@ Open Code::Blocks
 
 Go to:
 
-File → New → Project → Console Application
+`File → New → Project → Console Application`
 
 
 Select:
@@ -142,12 +142,12 @@ The 3D Interactive Solar System window will appear
 🎮 Keyboard Controls
 Camera Movement
 Key	Action
-W	Move camera forward
+`W	Move camera forward
 S	Move camera backward
 A	Move camera left
 D	Move camera right
 Q	Move camera up
-E	Move camera down
+E	Move camera down`
 Interaction
 Key	Action
 I	Cycle through planets & show HUD
@@ -177,7 +177,7 @@ OpenGL libraries are linked correctly
 
 Depth testing is enabled (glEnable(GL_DEPTH_TEST))
 
-🎓 Academic Purpose
+# 🎓 Academic Purpose
 
 Course: Computer Graphics
 
@@ -195,7 +195,7 @@ Animation
 
 Interactive graphics programming using OpenGL
 
-📌 Future Enhancements
+# 📌 Future Enhancements
 
 Lighting and shading models
 
@@ -207,7 +207,7 @@ UI panel instead of bitmap HUD
 
 Planet zoom & focus mode
 
-📜 License
+# 📜 License
 
 This project is intended for educational use.
 Feel free to fork and improve.
