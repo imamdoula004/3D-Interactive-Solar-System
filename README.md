@@ -35,7 +35,7 @@ Image Loading: stb_image.h
 IDE: Code::Blocks
 
 # 📁 Project Structure
-`3D-Solar-System/
+3D-Solar-System/
 │
 ├── main.cpp
 ├── stb_image.h
@@ -52,7 +52,7 @@ IDE: Code::Blocks
 │   ├── uranus.jpg
 │   ├── neptune.jpg
 │   └── stars.jpg
-└── README.md`
+└── README.md
 
 
 ⚠️ Important:
